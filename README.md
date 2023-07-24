@@ -20,4 +20,18 @@
    36  git status
    37  git commit -m "testing"
    38  git push -u origin develop
+39  history
+   40  git branch
+   41  git merge develop main 
+   42  git branch
+   43  git checkout main
+   44  git branch
+   45  git merge develop
+   46  git status
+   47  git push
+   48  git checkout develop
+   49  git status
+   50  git push --set-upstream origin main
+   51  history
+
 ```

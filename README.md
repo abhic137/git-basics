@@ -21,7 +21,11 @@ For creating a new GIT Branch
 git branch develop   #creates a branch named develop
 git branch            # you can check the branches available
 git checkout develop  # to get into the develop branch
-git branch           
+git branch  
+```
+OR
+```
+git checkout -b ＜new-branch＞   #creates a branch and switched into it
 ```
 For Making changes and pushing
 ```

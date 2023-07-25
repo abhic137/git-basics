@@ -23,13 +23,15 @@ git branch            # you can check the branches available
 git checkout develop  # to get into the develop branch
 git branch           
 ```
-sudo nano README.md 
-git status
-git add .
-git status
-git commit -m "testing"
-git push -u origin develop
-git branch
+For Making changes and pushing
+```
+sudo nano README.md   #changes are made
+git status            # to see the changes made (the changes are unstaged)
+git add .              # to stage the changes made
+git status              # you can see the changes are staged
+git commit -m "testing"  # commiting the changes with the message
+git push -u origin develop  # pushing the changes into the develop repo
+git branch                 
  
 ```
 after adding the changes in develop do these steps to merge develop into master branch:

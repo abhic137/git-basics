@@ -35,16 +35,14 @@ git branch
  
 ```
 after adding the changes in develop do these steps to merge develop into master branch:
+first you have to get into the master branch to merge develop into master
 ``` 
   git branch
-  git checkout master
-  git branch
-  git merge develop
+  git checkout master  # get into master branch
+  git branch    
+  git merge develop    # for merging the develop into the master branch 
   git status
-  git push
-  git checkout develop
-  git status
-  git push --set-upstream origin master
+  git push --set-upstream origin master  #to push the changes in the remote repo ie github
  ```
 
 

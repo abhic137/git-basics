@@ -23,15 +23,18 @@
 39  history
    40  git branch
    41  git merge develop main 
-   42  git branch
-   43  git checkout main
-   44  git branch
-   45  git merge develop
-   46  git status
-   47  git push
-   48  git checkout develop
-   49  git status
-   50  git push --set-upstream origin main
-   51  history
-
 ```
+after adding the changes in develop do these steps:
+``` 
+ git branch
+  git checkout main
+  git branch
+  git merge develop
+  git status
+ git push
+  git checkout develop
+  git status
+  git push --set-upstream origin main
+ ```
+
+

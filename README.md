@@ -22,17 +22,17 @@ git status
 git branch
  
 ```
-after adding the changes in develop do these steps:
+after adding the changes in develop do these steps to merge develop into master branch:
 ``` 
- git branch
-  git checkout main
+  git branch
+  git checkout master
   git branch
   git merge develop
   git status
- git push
+  git push
   git checkout develop
   git status
-  git push --set-upstream origin main
+  git push --set-upstream origin master
  ```
 
 
